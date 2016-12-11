@@ -5,6 +5,7 @@
 # *.[oa]
 # *~
 
+.idea/
 workspace.xml
 #src/main/resources/
 target/generated-sources/
