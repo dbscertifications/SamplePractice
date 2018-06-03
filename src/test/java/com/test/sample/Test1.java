@@ -15,8 +15,8 @@ package com.test.sample;
         @BeforeClass
         public void setUp() {
             String url = "www.google.com";
-//        System.setProperty("webdriver.chrome.driver", "C:\\PathFiles\\ChromeDriver\\ChromeDriver.exe");
-            System.setProperty("webdriver.ie.driver", "C:\\PathFiles\\ChromeDriver\\IEDriverServer.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\PathFiles\\ChromeDriver\\ChromeDriver.exe");
+//            System.setProperty("webdriver.ie.driver", "C:\\PathFiles\\ChromeDriver\\IEDriverServer.exe");
             driver = new InternetExplorerDriver();
 
             // Open the Google Application
